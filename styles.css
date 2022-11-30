@@ -1,0 +1,1815 @@
+* {
+  text-decoration: none;
+}
+
+body {
+	--def: #f8f5ec; 	
+	--inv: #de5588;
+	align-items: center;
+	flex-direction: column;
+    box-sizing: border-box;
+    font-family: eb garamond, serif;
+    background-color: #f8f5ec;
+    color: #de5588;
+    margin: 0;
+}
+
+p {
+  font-size: 110%;
+  line-height: 150%;
+}
+
+a {
+  border-bottom: 1px solid;
+  padding-bottom: 2%;
+  text-decoration: none;
+  color: #de5588;
+  line-height: 500%;
+}
+
+.cream-text {
+  color: #f8f5ec;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 300%;
+}
+
+h2, h3 {
+  font-family: tenor sans;
+  line-height: 100%;
+  font-size: 170%;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: tenor sans;
+  line-height: 30%;
+  font-size: 130%;
+  font-weight: 100;
+}
+
+nav {
+  font-family: tenor sans;
+  list-style-type: none;
+}
+
+nav a{
+  border-bottom: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 75%;
+  display: inline;
+}
+
+li:hover {
+  opacity: .7;
+}
+
+header {
+  margin: 0% 0% 1.5% 0%;
+  width: 100vw;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  background-color: #f8f5ec;
+  border-bottom: 1px solid #de5588;
+  z-index:9999;
+}
+
+footer {
+  margin: 1% 5% 1% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: tenor sans;
+  font-size: 70%;
+  align-items: center;
+}
+
+footer img {
+  width: 5%;
+}
+
+section {
+  margin: 6% 0% 6% 0%;
+}
+
+.main-logo {
+  width: 6%;
+  vertical-align: middle;
+  margin: 0% 1% 0% 1%;
+}
+
+.intro {
+  background-color: #efd2d2;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0%;
+  padding-top: 4%;
+}
+
+.intro-darkerpink {
+  background-color: #d9a5ac;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0%;
+  padding-top: 4%;
+}
+
+.intro-text {
+  text-align: center;
+  width: 60%;
+  padding: 16% 10% 16% 10%;
+}
+
+.intro-text-2 {
+  text-align: center;
+  width: 60%;
+  padding: 19.5% 10% 19.5% 10%;
+}
+
+.intro-image {
+  width: 100%;
+  background-image: url(images/flowers-florist-atelier.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.goal {
+  display: grid;
+  place-items: center;
+  padding: 0% 0% 2% 0%;
+}
+
+.centered {
+  width: 35%;
+  text-align: center;
+  object-position: center;
+  padding: 2%;
+}
+
+.darker-pink {
+  background-color: #d9a5ac;
+  margin: 0%;
+}
+
+.why {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 7% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.why a:hover {
+  color: #d9a5ac;
+  background-color: #f8f5ec;
+  transition: .4s;
+}
+
+.why a {
+  color: #f8f5ec;
+}
+
+.left-text {
+  width: 40%;
+}
+
+.left-text-flowers {
+  width: 49%;
+}
+
+.right-image {
+  width: 35%;
+  float: right;
+}
+
+.most-viewed {
+  display: grid;
+  place-items: center;
+  padding: 2% 0% 4% 0%;
+  margin: 1% 0% 1% 0%;
+}
+
+.light-pink {
+  background-color: #efd2d2;
+  margin: 0%;
+}
+
+.viewed-flowers {
+  margin: 1% 20% 3% 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  background-clip: content-box;
+}
+
+.viewed-flowers div:nth-child(3) {
+    margin-right: 0%!important;
+}
+
+.viewed-flowers div {
+  width: 16.5vw;
+  height: 17.5vw;
+  border: 1px solid #de5588;
+  background-clip: content-box; 
+  position: relative;
+  padding: 1.5%;
+  margin-right: 4%;
+}
+
+.viewed-flowers div:hover .overlay-text {
+  visibility: visible; 
+  transition: .3s;
+  opacity: 1;
+}
+
+.viewed-flowers div:hover .overlay-text {
+  visibility: visible; 
+  transition: .3s;
+  opacity: 1;
+}
+
+
+.viewed-flowers div:nth-child(1) {
+  background-image: url(images/tirza-van-dijk-cNGUw-CEsp0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.viewed-flowers div:nth-child(2) {
+  background-image: url(images/assem-gniyat-Cmnf8IfpBsE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.viewed-flowers div:nth-child(3) {
+  background-image: url(images/linh-le-_Q6IgbHqqM4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.buy a:hover, .goal a:hover {
+  color: #f8f5ec;
+  background-color: #de5588;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.right-text {
+  width: 40%;
+  text-align: end;
+}
+
+
+
+
+
+.intro-image-2 {
+  width: 100%;
+  background-image: url(images/micaela-parente-4wWByhZcn2s-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.options {
+  display: grid;
+  place-items: center;
+  padding: 0% 0% 2% 0%;
+}
+
+.bouqs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.bouqs a:hover {
+  color: #d9a5ac;
+  background-color: #f8f5ec;
+  transition: .4s;
+}
+
+.ftd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 5% 0% 5% 0%;
+  align-items: center;
+}
+
+.ftd a:hover {
+  color: #f8f5ec;
+  background-color: #de5588;
+  transition: .4s;
+}
+
+.afloral {
+  color: #de5588;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.afloral a {
+  color: #f8f5ec;
+}
+}
+
+.afloral a:hover {
+  color: #d9a5ac;
+  background-color: #de5588;
+  transition: .4s;
+}
+
+
+
+
+
+
+
+
+.intro-image-4 {
+  width: 100%;
+  background-image: url(images/closeup-colorful-flower-bouquets-containers-outdoor-shop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-text-cream {
+  text-align: center;
+  width: 60%;
+  padding: 16% 10% 16% 10%;
+  color: #f8f5ec;
+}
+
+.flora {
+  display: grid;
+  place-items: center;
+  padding: 0% 0% 2% 0%;
+}
+
+.pansymaiden {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.pansymaiden a {
+  color: #f8f5ec;
+}
+
+.pansymaiden a:hover {
+  color: #d9a5ac;
+  background-color: #f8f5ec;
+  transition: .4s;
+}
+
+.snapblooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 5% 0% 5% 0%;
+  align-items: center;
+}
+
+.snapblooms a:hover {
+  color: #f8f5ec;
+  background-color: #de5588;
+  transition: .4s;
+}
+
+.plantsnap {
+  color: #de5588;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+.plantsnap a {
+  color: #de5588;
+}
+
+.plantsnap a:hover {
+  color: #d9a5ac;
+  background-color: #de5588;
+  transition: .4s;
+}
+
+
+
+
+.intro-image-3 {
+  width: 100%;
+  background-image: url(images/free_mrbai-n1mVt4pyFow-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.love {
+  display: grid;
+  place-items: center;
+  padding: 0% 0% 2% 0%;
+}
+
+.attraction {
+  display: grid;
+  place-items: center;
+  padding: 7% 0% 7% 0%;
+}
+
+.romantic-flowers {
+  padding: 0% 0% 2% 0%;
+  display: grid;
+  place-items: center;
+}
+
+.romantic-flowers a {
+  color: #f8f5ec;
+}
+
+.flowersrow1 {
+  display: grid;
+  place-items: center;
+}
+
+.flowers-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flowers-row1 div {
+  position: relative;
+  width: 13vw;
+  height: 10vw;
+  border: 1px solid #de5588;
+  background-clip: content-box;
+  padding: 1.5%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+.flowers-row1 div:nth-child(1) {
+  background-image: url(images/tirza-van-dijk-cNGUw-CEsp0-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row1 div:nth-child(2) {
+  background-image: url(images/assem-gniyat-Cmnf8IfpBsE-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row1 div:nth-child(3) {
+  background-image: url(images/linh-le-_Q6IgbHqqM4-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row1 div:nth-child(4) {
+  background-image: url(images/alexandra-nosova-kly-z2c54b0-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowersrow2 {
+  display: grid;
+  place-items: center;
+}
+
+.flowers-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.flowers-row2 div {
+  position: relative;
+  width: 13vw;
+  height: 10vw;
+  border: 1px solid #de5588;
+  background-clip: content-box;
+  padding: 1.5%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+.flowers-row2 div:nth-child(1) {
+  background-image: url(images/allec-gomes--5673qprXNs-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row2 div:nth-child(2) {
+  background-image: url(images/anna-meshkov--0YZgPxq04k-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row2 div:nth-child(3) {
+  background-image: url(images/ryunosuke-kikuno-gvorxVI_B_I-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.flowers-row2 div:nth-child(4) {
+  background-image: url(images/SmallBlueForgetMeNotFlowersinVase-01.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.overlay-text {
+  background-clip: content-box;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  visibility: hidden;
+  background: rgba(223, 85, 136, .25);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+}
+
+.flowers-row1 div:hover .overlay-text {
+  visibility: visible; 
+  transition: .3s;
+  opacity: 1;
+}
+
+.flowers-row2 div:hover .overlay-text {
+  visibility: visible; 
+  transition: .3s;
+  opacity: 1;
+}
+
+.video {
+  float: right;
+}
+
+.other-flowers a:nth-child(1) {
+  color: #f8f5ec;
+}
+
+.video-link:hover {
+  color: #d9a5ac!important;
+  background-color: #f8f5ec;
+  transition: .4s;
+}
+
+.darkpink-link:hover {
+  color: #efd2d2!important;
+  background-color: #df5588!important;
+  transition: .4s;
+}
+
+.light-link:hover {
+  color: #d9a5ac!important;
+  background-color: #f8f5ec!important;
+  transition: .4s;
+}
+
+.other-flowers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 0% 25%;
+  padding: 7% 0% 7% 0%;
+  align-items: center;
+}
+
+
+
+
+
+
+.intro-rose {
+  width: 100%;
+  background-image: url(images/vika-strawberrika-6Ffx6PUw1Jk-unsplash.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.flowers-link {
+  border-bottom: none!important;
+}
+
+.flowers-info {
+  display: grid;
+  place-items: center;
+}
+
+.flowers-row {
+  color: #de5588;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0% 25% 0% 25%;
+  padding: 0% 0% 7% 0%;
+  align-items: center;
+}
+
+.flowers-row div:hover .overlay-image {
+  visibility: visible; 
+  transition: .3s;
+  opacity: 1;
+}
+
+.flowers-image {
+  position: relative;
+  float: left;
+  border: 1px solid #de5588;
+  padding: 1.5%;
+  margin: 2%;
+}
+
+.flowers-image img {
+  width: 18vw;
+  height: 21vw;
+}
+
+.rose-hover img {
+  width: 90%;
+  height: 65%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .rose-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .rose-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.flowers-navigation {
+  margin: 1% 5% 1% 5%;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: .5%;
+}
+
+.flowers-navigation a {
+  color: #f8f5ec;
+}
+
+.flower-name {
+  color: #d9a5ac;
+  line-height: 0%!important;
+  margin-bottom: 10%;
+}
+
+
+
+
+
+.intro-peony {
+  width: 100%;
+  background-image: url(images/patrick-langwallner-ti4M507Rac0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.peony-hover img {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .peony-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .peony-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+.intro-babysbreath {
+  width: 100%;
+  background-image: url(images/debby-hudson-5Ov4CvZqGeY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.babysbreath-hover img {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .babysbreath-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .babysbreath-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+.intro-orchid {
+  width: 100%;
+  background-image: url(images/alfonso-alberto-ramirez-alvarez-FP2Kf5DsSo8-unsplash.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.orchid-hover img {
+  width: 75%;
+  height: 60%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .orchid-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .orchid-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+.intro-tulip {
+  width: 100%;
+  background-image: url(images/earl-wilcox-gPGTMNCQ1qQ-unsplash.jpg);
+  background-position: top center; 
+  background-size: cover;
+}
+
+.tulip-hover img {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .tulip-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .tulip-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+.intro-lilac {
+  width: 100%;
+  background-image: url(images/tetiana-shadrina-8ObGfV2RBpA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.lilac-hover img {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .lilac-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .lilac-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+.intro-carnation {
+  width: 100%;
+  background-image: url(images/natasha-9PBt3w65C_s-unsplash.jpg);
+  background-position: top left;
+  background-size: cover;
+}
+
+.carnation-hover img {
+  width: 70%;
+  height: 55%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .carnation-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .carnation-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+.intro-forgetmenot {
+  width: 100%;
+  background-image: url(images/irina-05YCmH4ZVqA-unsplash.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.forgetmenot-hover img {
+  width: 65%;
+  height: 50%;
+  display: flex;
+  justify-items: center;
+}
+
+.flowers-image .forgetmenot-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  background: #f8f5ec;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers-image:hover .forgetmenot-hover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+.intro-image-5 {
+  width: 100%;
+  background-image: url(images/tobias-schafer-zWFhZ0GOQf0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-text-history {
+  text-align: center;
+  width: 60%;
+  padding: 18% 10% 18% 10%;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 7% 25%;
+  align-items: center;
+  display: grid;
+  place-items: center;
+}
+
+
+.symbolic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 7% 25%;
+  align-items: center;
+  display: grid;
+  place-items: center;
+  padding: 7% 0% 7% 0%;
+  color: #f8f5ec;
+}
+
+.full-text {
+  width: 80%;
+}
+
+.full-text p {
+  margin: 0%;
+  padding-bottom: 2%;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 25% 7% 25%;
+  align-items: center;
+  display: grid;
+  place-items: center;
+}
+
+.giving-flowers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7% 0% 7% 0%;
+  display: grid;
+  place-items: center;
+}
+
+.left-text-2 {
+  width: 43%;
+}
+
+.right-image-2 {
+  margin-top: 1.5%;
+  width: 19vw;
+  height: 11vw;
+  background-image: url(images/lotus-and-ancient-egyptians-1536x850.jpeg);
+  background-size: cover;
+  border: 1px solid #de5588;
+  background-clip: content-box;
+  padding: 1.5%;
+  float: right;
+}
+
+.left-image {
+  margin-top: 1.5%;
+  width: 16vw;
+  height: 10vw;
+  background-image: url(images/jeremy-cai-7ZphwmJYNSg-unsplash.jpg);
+  background-size: cover;
+  border: 1px solid #de5588;
+  background-clip: content-box;
+  padding: 1.5%;
+  float: left;
+}
+
+.left-image-2 {
+  margin-top: 1.5%;
+  width: 16vw;
+  height: 10vw;
+  background-image: url(images/Scholderer_Otto_The_Flower_Arrangement.jpg);
+  background-size: cover;
+  border: 1px solid #f8f5ec;
+  background-clip: content-box;
+  padding: 1.5%;
+  float: left;
+}
+
+.right-text-2 {
+  width: 50%;
+  text-align: end;
+}
+
+.history-flowers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flowers-link-2 {
+  border-bottom: none!important;
+  color: #f8f5ec;
+  font-size: 120%;
+}
+
+.intro-text-3 {
+  text-align: center;
+  width: 60%;
+  padding: 19.5% 10% 19.5% 10%;
+  color: #f8f5ec;
+}
+
+.flowers-navigation-2 {
+  margin: 1% 5% 1% 5%;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: .5%;
+}
+
+.flowers-navigation-2 a {
+  color: #de5588;
+}
+
+
+
+
+
+
+
+
+
+.hover {		
+	position: relative;	
+	transition: all 500ms;	
+	cursor: pointer;
+	user-select: none;
+    padding: .5%;
+}
+
+.hover:before, .hover:after {
+	content: '';
+	position: absolute;	
+	transition: inherit;
+    pointer-events: none;
+}
+
+.hover:hover {
+	transition-delay: .5s;
+}
+
+.hover:hover:before {
+	transition-delay: 0s;
+}
+
+.hover:hover:after {
+	transition-delay: .35s;
+}
+
+
+/* From Left */
+
+.from-left {
+  margin: .5%;
+}
+
+.from-left:before, 
+.from-left:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.from-left:before {
+	right: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;	
+}
+
+.from-left:after {
+	left: 0;
+}
+
+.from-left:hover:before,
+.from-left:hover:after {
+	width: 100%;
+}
+
+.main-logo:hover {
+  opacity: .9;
+  transition: .3s;
+}
+
+
+
+
+
+.why-2 {
+    border: 1px solid #f8f5ec;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.why-2 figure {
+	position: relative;
+    height: 20vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.why-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.why-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.why-2 figure figcaption,
+.why-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.why-2 figure figcaption p {
+  margin: 55% 20% 55% 20%;
+}
+
+
+.why-2 figure p {
+	font-size: 95%;
+}
+
+.overlaytext figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext figcaption::before,
+.overlaytext p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext:hover figcaption::before,
+.overlaytext:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+.buy-2 {
+    border: 1px solid #de5588;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.buy-2 figure {
+	position: relative;
+    height: 14vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.buy-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.buy-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.buy-2 figure figcaption,
+.buy-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buy-2 figure figcaption p {
+  margin: 28% 20% 28% 20%;
+}
+
+
+.buy-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-2 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-2 figcaption::before,
+.overlaytext-2 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-2:hover figcaption::before,
+.overlaytext-2:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-2:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+
+.bouqs-2 {
+    border: 1px solid #de5588;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.bouqs-2 figure {
+	position: relative;
+    height: 20vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.bouqs-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.bouqs-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.bouqs-2 figure figcaption,
+.bouqs-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bouqs-2 figure figcaption p {
+  margin: 45% 20% 45% 20%;
+}
+
+
+.bouqs-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-3 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-3 figcaption::before,
+.overlaytext-3 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-3:hover figcaption::before,
+.overlaytext-3:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-3:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+
+.ftd-2 {
+    border: 1px solid #de5588;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.ftd-2 figure {
+	position: relative;
+    height: 20vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.ftd-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.ftd-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.ftd-2 figure figcaption,
+.ftd-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ftd-2 figure figcaption p {
+  margin: 40% 20% 40% 20%;
+}
+
+
+.ftd-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-4 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-4 figcaption::before,
+.overlaytext-4 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-4:hover figcaption::before,
+.overlaytext-4:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-4:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+
+.afloral-2 {
+    border: 1px solid #f8f5ec;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.afloral-2 figure {
+	position: relative;
+    height: 20vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.afloral-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.afloral-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.afloral-2 figure figcaption,
+.afloral-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.afloral-2 figure figcaption p {
+  margin: 40% 20% 40% 20%;
+}
+
+
+.afloral-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-5 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-5 figcaption::before,
+.overlaytext-5 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-5:hover figcaption::before,
+.overlaytext-5:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-5:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+.pansymaiden-2 {
+    border: 1px solid #f8f5ec;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.pansymaiden-2 figure {
+	position: relative;
+    height: 15vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.pansymaiden-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.pansymaiden-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.pansymaiden-2 figure figcaption,
+.pansymaiden-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pansymaiden-2 figure figcaption p {
+  margin: 30% 20% 30% 20%;
+}
+
+
+.pansymaiden-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-6 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-6 figcaption::before,
+.overlaytext-6 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-6:hover figcaption::before,
+.overlaytext-6:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-6:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+.snapblooms-2 {
+    border: 1px solid #de5588;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.snapblooms-2 figure {
+	position: relative;
+    height: 16vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.snapblooms-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.snapblooms-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.snapblooms-2 figure figcaption,
+.snapblooms-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.snapblooms-2 figure figcaption p {
+  margin: 27% 20% 27% 20%;
+}
+
+
+.snapblooms-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-7 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-7 figcaption::before,
+.overlaytext-7 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-7:hover figcaption::before,
+.overlaytext-7:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-7:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+
+.plantsnap-2 {
+    border: 1px solid #de5588;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.plantsnap-2 figure {
+	position: relative;
+    height: 24vw;
+	text-align: center;
+	cursor: pointer;
+    margin: 0%;
+    padding: 4%;
+}
+
+.plantsnap-2 img {
+	width: 100%;
+  height: 100%;
+	opacity: 0.8;
+}
+
+.plantsnap-2 figure figcaption {
+  color: #fff;
+  font-size: 1.25em;
+  position: absolute;
+}
+
+.plantsnap-2 figure figcaption,
+.plantsnap-2 figure figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.plantsnap-2 figure figcaption p {
+  margin: 48% 20% 48% 20%;
+}
+
+
+.plantsnap-2 figure p {	
+  font-size: 95%;
+}
+
+.overlaytext-8 figcaption::before {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	border: 1px solid #fff;
+	content: '';
+}
+
+.overlaytext-8 figcaption::before,
+.overlaytext-8 p {
+    margin: 5%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.overlaytext-8:hover figcaption::before,
+.overlaytext-8:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+
+.overlaytext-8:hover figcaption {
+ background: rgba(223, 85, 136, .35);
+  position: absolute;
+  transition: .3s;
+  height: 100%;
+}
+
+
+
+
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
